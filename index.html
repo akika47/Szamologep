@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Számológép</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            Kérem az első számot: <br> <input type="number" id="elsoSzam" > <br>
+            Kérem a második számot: <br> <input type="number" id="masodikSzam" > <br>
+            <input type="button" value="+" onclick="osszeadas()">
+            <input type="button" value="-" onclick="kivonas()">
+            <input type="button" value="*" onclick="szorzas()">
+            <input type="button" value="/" onclick="osztas()">
+        </fieldset>
+
+        <fieldset>
+            <h1>Eredmény: </h1>
+            <h1 id="eredmeny"></h1>
+        </fieldset>
+    </form>
+</body>
+</html>
